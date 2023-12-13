@@ -1,0 +1,47 @@
+.auth-wrapper {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.auth-content {
+  width: 100%;
+  text-align: center;
+}
+
+.auth-content>h1 {
+  padding-bottom: 30px;
+  font-size: 38px;
+}
+
+.google-btn {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100%;
+  transition: opacity 0.2s ease
+}
+
+.google-btn:hover {
+  opacity: 0.6;
+}
+
+.google-btn>span {
+  font-family: Finlandica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.auth-content--toggle-btn {
+  padding-top: 50px;
+}
+
+.auth-content--toggle-btn>a {
+  color: white;
+}
