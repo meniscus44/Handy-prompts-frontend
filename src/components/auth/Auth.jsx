@@ -38,8 +38,34 @@ const Auth = ({ variant = "login" }) => {
 
 				<button className="google-btn" onClick={googleLoginHandler}>
 					<FcGoogle size={24} />
-					<span>Google</span>
+					<span>Continue with Google</span>
 				</button>
+
+				<div className="auth-content--divider">
+					<div className="auth-content--divider__line"></div>
+					<p>or</p>
+					<div className="auth-content--divider__line"></div>
+				</div>
+
+				<form className="auth-form">
+					<input
+						className="auth-form--input"
+						type="email"
+						placeholder="Enter your email"
+						required
+					/>
+
+					<input
+						className="auth-form--input"
+						type="password"
+						placeholder="Enter your password"
+						required
+					/>
+
+					<div>
+						<button className="auth-form--submit">Register</button>
+					</div>
+				</form>
 
 				<div className="auth-content--toggle-btn">
 					{variant === "login" ? (
