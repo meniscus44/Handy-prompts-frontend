@@ -1,15 +1,23 @@
 * {
     box-sizing: border-box;
 }
-body, html, input, textarea {
+
+body,
+html,
+input,
+textarea {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: Finlandica,sans-serif!important;
-    font-weight: 400!important;
+    font-family: Finlandica, sans-serif !important;
+    font-weight: 400 !important;
+    font-family: Finlandica, sans-serif !important;
+    font-weight: 400 !important;
     color: #fff;
     background-color: #222236;
 }
+
+
 div {
     font-size: 14px;
 }
@@ -18,3 +26,21 @@ div {
     text-decoration: inherit;
     color: inherit;
 }
+
+/* .prompts-wrapper {
+    padding-left: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    max-width: 1400px;
+    margin: auto;
+} */
+
+.slick-slide>div {
+    margin: 0 10px;
+}
+
+/* @media only screen and (max-width: 1000px) {
+    .prompts-wrapper {
+        padding-left: 16px;
+    }
+} */

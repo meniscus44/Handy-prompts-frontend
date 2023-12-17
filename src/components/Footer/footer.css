@@ -1,0 +1,11 @@
+.footer-container {
+  width: 100%;
+  background-color: #2A2B44;
+}
+
+.footer-content {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
