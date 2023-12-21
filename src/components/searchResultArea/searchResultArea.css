@@ -1,0 +1,7 @@
+.search-result {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-content: flex-start;
+}

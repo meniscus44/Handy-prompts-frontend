@@ -1,0 +1,23 @@
+.check-container {
+    margin-left: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.field {
+    text-align: left;
+    margin-bottom: 16px;
+}
+.field-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.field-check div {
+    margin-left: 4px;
+    font-size: 12px;
+}
+.field-title {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
