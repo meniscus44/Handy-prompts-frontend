@@ -1,11 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-// import "./promptsCarousel.css";
 import PromptTile from "../promptTile/PromptTile";
 import { prompts } from "../../data";
-// import "~slick-carousel/slick/slick.css";
-// import "../../../node_modules/slick-carousel/slick/slick-theme.css";
-// import "../../../node_modules/slick-carousel/slick/slick.css";
 
 const PromptsCarousel = () => {
 	const settings = {

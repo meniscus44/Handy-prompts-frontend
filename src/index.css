@@ -1,30 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body,
 html,
 input,
 textarea {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: Finlandica, sans-serif !important;
-    font-weight: 400 !important;
-    font-family: Finlandica, sans-serif !important;
-    font-weight: 400 !important;
-    color: #fff;
-    background-color: #222236;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Finlandica, sans-serif !important;
+  font-weight: 400 !important;
+  font-family: Finlandica, sans-serif !important;
+  font-weight: 400 !important;
+  color: #fff;
+  background-color: #222236;
 }
 
-
 div {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .link {
-    text-decoration: inherit;
-    color: inherit;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 /* .prompts-wrapper {
@@ -35,8 +38,8 @@ div {
     margin: auto;
 } */
 
-.slick-slide>div {
-    margin: 0 10px;
+.slick-slide > div {
+  margin: 0 10px;
 }
 
 /* @media only screen and (max-width: 1000px) {
@@ -44,3 +47,45 @@ div {
         padding-left: 16px;
     }
 } */
+
+.rainbox-text {
+  background-image: linear-gradient(
+    122deg,
+    #f17b85,
+    #f79393 15%,
+    #fee4a5 45%,
+    #9ae8b0 65%,
+    #5ba5d0 90%,
+    #9078d0
+  );
+  -webkit-mask-image: linear-gradient(
+    122deg,
+    #f17b85,
+    #f79393 15%,
+    #fee4a5 45%,
+    #9ae8b0 65%,
+    #5ba5d0 90%,
+    #9078d0
+  );
+  -webkit-box-decoration-break: clone;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.item-tile {
+  width: 240px;
+  height: 160px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  transition: 1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  box-shadow: 2px 3px 9px #00000026;
+  -webkit-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, .15);
+  -moz-box-shadow: 2px 3px 9px 0px rgba(0, 0, 0, .15);
+}
